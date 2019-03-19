@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Navigation runner","Should be able to navigate to the fashion products","SUCCESS","2019-03-19T21:44:52.151+04:00[Asia/Muscat]","0.0","25.23"
+"Navigation runner","Should be able to navigate to the motors products","SUCCESS","2019-03-19T21:45:18.185+04:00[Asia/Muscat]","0.0","13.87"
+"Search runner","Search results should show the search term in the title","SUCCESS","2019-03-19T21:45:43.347+04:00[Asia/Muscat]","0.0","55.36"

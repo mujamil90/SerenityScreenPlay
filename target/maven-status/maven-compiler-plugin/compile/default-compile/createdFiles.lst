@@ -1,0 +1,15 @@
+com\ui\serenity\screenplay\user\Inreaction\NavigateBar.class
+com\ui\serenity\screenplay\steps\NavigatingUser.class
+com\ui\serenity\screenplay\tasks\Search.class
+com\ui\serenity\screenplay\user\Inreaction\EbayHomePage.class
+com\ui\serenity\screenplay\actions\Refresh.class
+com\ui\serenity\screenplay\user\Inreaction\SearchBox.class
+com\ui\serenity\screenplay\actions\JSClick.class
+com\ui\serenity\screenplay\base\BaseActors.class
+com\ui\serenity\screenplay\model\Category.class
+com\ui\serenity\screenplay\tasks\OpenTheApplication.class
+com\ui\serenity\screenplay\user\Inreaction\CurrentPage.class
+com\ui\serenity\screenplay\user\Inreaction\CategoryNavigationBar.class
+com\ui\serenity\screenplay\actions\DoubleClick.class
+com\ui\serenity\screenplay\tasks\NavigateTo.class
+com\ui\serenity\screenplay\model\SearchStack.class

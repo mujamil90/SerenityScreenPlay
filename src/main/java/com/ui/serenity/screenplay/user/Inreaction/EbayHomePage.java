@@ -6,6 +6,8 @@ import net.thucydides.core.annotations.DefaultUrl;
  * 
  * @author Muzzamil
  *
+ *
+ *This class is responsible to open home page of @ebay
  */
 
 @DefaultUrl("http://www.ebay.com")

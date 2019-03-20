@@ -9,6 +9,8 @@ import net.serenitybdd.screenplay.targets.Target;
  * 
  * @author Muzzamil
  *
+ *
+ *This class is responsible to open categories @category.
  */
 public class NavigateBar {
 	

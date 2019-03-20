@@ -6,6 +6,8 @@ import org.openqa.selenium.By;
 /***
  * 
  * @author Muzzamil
+ * 
+ * This class is responsible to provide target @search textbox
  *
  */
 

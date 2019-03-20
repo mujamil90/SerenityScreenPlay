@@ -1,7 +1,7 @@
-Serenity report generated 19-03-2019 21:46
-3 test scenarios 
+Serenity report generated 20-03-2019 20:15
+4 test scenarios (5 tests in all, including 2 rows of test data)
 
-Passed:             3
+Passed:             4
 Pending             0
 Failed:             0
 Failed with errors: 0

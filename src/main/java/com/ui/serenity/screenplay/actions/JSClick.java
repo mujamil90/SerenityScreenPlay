@@ -23,6 +23,9 @@ public class JSClick implements Action {
         this.target = target;
     }
 
+    /***
+     * @thetheActor an object who is performing an action.
+     */
     @Override
     @Step("{0} clicks on #target")
     public <T extends Actor> void performAs(T theActor) {
@@ -30,6 +33,11 @@ public class JSClick implements Action {
         BrowseTheWeb.as(theActor).evaluateJavascript("arguments[0].click()", targetElement);
     }
 
+    /***
+     * 
+     * @param target can be a webelement or locator
+     * @return Action can be click.
+     */
     public static Action on(Target target) {
         return instrumented(JSClick.class, target);
     }

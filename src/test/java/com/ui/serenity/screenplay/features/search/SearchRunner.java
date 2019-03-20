@@ -24,6 +24,8 @@ import net.thucydides.core.annotations.Steps;
  * 
  * @author Muzzamil
  *
+ *
+ *This class having test cases to verify @serach
  */
 @RunWith(SerenityRunner.class)
 public class SearchRunner extends BaseActors{

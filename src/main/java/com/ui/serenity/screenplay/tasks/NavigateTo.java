@@ -27,6 +27,10 @@ public class NavigateTo implements Task{
 		this.category=category;
 	}
 	
+	/***
+	 *  @actor performs click after open @theEbayHomePage
+	 */
+	
 	@Override
 	@Step("{0} navigates to the #category category")
 	public <T extends Actor> void performAs(T actor) {
@@ -37,7 +41,11 @@ public class NavigateTo implements Task{
 		
 	}
 	
-	
+	/***
+	 * 
+	 * @param category of task to perform an action
+	 * @return
+	 */
 	
 	public static Performable theCategory(Category category) {
 		return Instrumented.instanceOf(NavigateTo.class).withProperties(category);

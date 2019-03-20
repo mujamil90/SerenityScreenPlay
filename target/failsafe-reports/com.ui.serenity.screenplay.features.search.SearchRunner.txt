@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.ui.serenity.screenplay.features.search.SearchRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 59.827 sec - in com.ui.serenity.screenplay.features.search.SearchRunner
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.879 sec - in com.ui.serenity.screenplay.features.search.SearchRunner

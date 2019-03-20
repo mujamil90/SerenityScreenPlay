@@ -18,6 +18,9 @@ import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.questions.page.TheWebPage;
 /**
  * @author Muzzamil
+ * 
+ * 
+ * This class having test cases to verify @navigation.
  */
 @RunWith(SerenityRunner.class)
 public class NavigationRunner extends BaseActors {
@@ -33,8 +36,9 @@ public class NavigationRunner extends BaseActors {
     @Test
     public void shouldBeAbleToNavigateToTheMotorsProducts() {
 		
-    	DEAN.can(BrowseTheWeb.with(hisBrowser));
+    	
     	when(DEAN).attemptsTo(NavigateTo.theCategory(Category.Motors));
+    	
     	then(DEAN).should(seeThat(TheWebPage.title(), containsString(Category.Motors.toString())));
 	}
     
@@ -42,8 +46,9 @@ public class NavigationRunner extends BaseActors {
     @Test
     public void shouldBeAbleToNavigateToTheFashionProducts() {
 		
-    	DEAN.can(BrowseTheWeb.with(hisBrowser));
+    	
     	when(DEAN).attemptsTo(NavigateTo.theCategory(Category.Fashion));
+    	
     	then(DEAN).should(seeThat(TheWebPage.title(), containsString(Category.Fashion.toString())));
 	}
 }

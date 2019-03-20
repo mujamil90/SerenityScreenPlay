@@ -22,7 +22,9 @@ public class Search implements Task {
     protected Search(String searchTerm) {
         this.searchTerm = searchTerm;
     }
-
+ /***
+  * step to perform task to search given @searchTerm
+  */
     @Step("Search for #searchTerm")
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(

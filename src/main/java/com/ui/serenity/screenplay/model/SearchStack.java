@@ -3,7 +3,7 @@ package com.ui.serenity.screenplay.model;
 /***
  * 
  * @author Muzzamil
- *
+  * An enum having all keywords required in test cases
  */
 
 public enum SearchStack {

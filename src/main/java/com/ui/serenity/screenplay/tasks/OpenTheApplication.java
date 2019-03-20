@@ -11,6 +11,7 @@ import net.thucydides.core.annotations.Step;
  * 
  * @author Muzzamil
  *
+ * This class is responsible to open application @ebay 
  */
 public class OpenTheApplication implements Task {
 

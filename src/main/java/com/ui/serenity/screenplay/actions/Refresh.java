@@ -11,6 +11,10 @@ import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
  *
  */
 public class Refresh implements Interaction, IsSilent {
+	
+	/***
+	 * This function is responsible to delete all cookies of browser.
+	 */
     @Override
     public <T extends Actor> void performAs(T actor) {
         BrowseTheWeb.as(actor).getDriver().manage().deleteAllCookies();

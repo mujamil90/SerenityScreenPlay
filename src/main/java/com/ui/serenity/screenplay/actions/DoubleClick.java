@@ -15,10 +15,15 @@ import net.thucydides.core.annotations.Step;
  * 
  * @author Muzzamil
  * 
- * Custom Action using a low-level WebDriver API
+ * This class having global custom Action using a low-level WebDriver API 
  */
 public class DoubleClick implements Action {
 
+	/**
+	 * 
+	 * @param target is given object can be locator with @css and @id
+	 * @return double click
+	 */
     public static DoubleClick on(Target target) {
         return instrumented(DoubleClick.class, target);
     }
@@ -29,6 +34,9 @@ public class DoubleClick implements Action {
         this.target = target;
     }
 
+    /**
+     * @actor  who is performing action.
+     */
     @Step("{0} double-clicks on #target")
     public <T extends Actor> void performAs(T actor) {
         WebElement element = target.resolveFor(actor);
@@ -36,6 +44,11 @@ public class DoubleClick implements Action {
         as(actor).doubleClick(element).perform();
     }
 
+    /***
+     * 
+     * @param actor who is performing action.
+     * @return Action can be open browser or click.
+     */
     private Actions as(Actor actor) {
         return new Actions(BrowseTheWeb.as(actor).getDriver());
     }

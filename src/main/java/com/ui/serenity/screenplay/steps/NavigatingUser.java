@@ -12,6 +12,11 @@ import com.ui.serenity.screenplay.user.Inreaction.EbayHomePage;
 
 import net.thucydides.core.annotations.Step;
 
+/***
+ * 
+ * This class is respinsible to provide steps to complete test cases.
+ *
+ */
 
 public class NavigatingUser {
 

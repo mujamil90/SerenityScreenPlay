@@ -4,6 +4,7 @@ package com.ui.serenity.screenplay.model;
  * 
  * @author Muzzamil
  *
+ * An enum contains all navigation categories of ebay
  */
 public enum Category {
     Motors("Motors"),

@@ -1,5 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Navigation runner data driven","Should be able to navigate to the data driven products","SUCCESS","2019-03-20T20:14:06.944+04:00[Asia/Muscat]","0.0","23.25"
-"Navigation runner","Should be able to navigate to the fashion products","SUCCESS","2019-03-20T20:14:23.34+04:00[Asia/Muscat]","0.0","19.48"
-"Navigation runner","Should be able to navigate to the motors products","SUCCESS","2019-03-20T20:14:42.861+04:00[Asia/Muscat]","0.0","7.36"
-"Search runner","Search results should show the search term in the title","SUCCESS","2019-03-20T20:14:52.747+04:00[Asia/Muscat]","0.0","11.56"

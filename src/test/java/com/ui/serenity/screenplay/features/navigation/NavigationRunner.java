@@ -29,7 +29,7 @@ public class NavigationRunner extends BaseActors {
     
     
     @Before public void deanCanBrowseTheWeb() {
-        DEAN.can(BrowseTheWeb.with(hisBrowser));
+        dean.can(BrowseTheWeb.with(hisBrowser));
     }
     
         
@@ -37,9 +37,9 @@ public class NavigationRunner extends BaseActors {
     public void shouldBeAbleToNavigateToTheMotorsProducts() {
 		
     	
-    	when(DEAN).attemptsTo(NavigateTo.theCategory(Category.Motors));
+    	when(dean).attemptsTo(NavigateTo.theCategory(Category.Motors));
     	
-    	then(DEAN).should(seeThat(TheWebPage.title(), containsString(Category.Motors.toString())));
+    	then(dean).should(seeThat(TheWebPage.title(), containsString(Category.Motors.toString())));
 	}
     
     
@@ -47,8 +47,8 @@ public class NavigationRunner extends BaseActors {
     public void shouldBeAbleToNavigateToTheFashionProducts() {
 		
     	
-    	when(DEAN).attemptsTo(NavigateTo.theCategory(Category.Fashion));
+    	when(dean).attemptsTo(NavigateTo.theCategory(Category.Fashion));
     	
-    	then(DEAN).should(seeThat(TheWebPage.title(), containsString(Category.Fashion.toString())));
+    	then(dean).should(seeThat(TheWebPage.title(), containsString(Category.Fashion.toString())));
 	}
 }

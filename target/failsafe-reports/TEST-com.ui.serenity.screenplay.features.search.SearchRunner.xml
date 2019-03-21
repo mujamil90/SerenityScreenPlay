@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.ui.serenity.screenplay.features.search.SearchRunner" time="11.538" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="com.ui.serenity.screenplay.features.search.SearchRunner" time="10.096" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\Muzzamil\Git\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5850634176084632571.tmp"/>
+    <property name="classworlds.conf" value="D:\Muzzamil\Git\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7005010458086926388.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_161/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_161/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_161/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS;C:\Program Files\Git\cmd;D:\Automation_tools\apache-maven-3.5.2\bin;C:\Users\muzzamil\AppData\Local\Android\Sdk\tools;C:\Users\muzzamil\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Users\muzzamil\AppData\Local\Android\Sdk\build-tools;C:\WINDOWS\System32\OpenSSH\;D:\Automation_tools\gradle-4.9\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\muzzamil\AppData\Local\Microsoft\WindowsApps;C:\Users\muzzamil\AppData\Roaming\npm;C:\Users\muzzamil\AppData\Local\atom\bin;;C:\Users\muzzamil\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\muzzamil\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,5 +60,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="search_results_should_show_the_search_term_in_the_title" classname="com.ui.serenity.screenplay.features.search.SearchRunner" time="11.538"/>
+  <testcase name="search_results_should_show_the_search_term_in_the_title" classname="com.ui.serenity.screenplay.features.search.SearchRunner" time="10.096"/>
 </testsuite>

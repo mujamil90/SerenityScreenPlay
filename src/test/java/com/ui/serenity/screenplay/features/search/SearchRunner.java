@@ -36,17 +36,17 @@ public class SearchRunner extends BaseActors{
 
     @Before
     public void samCanBrowseTheWeb() {
-        SAM.can(BrowseTheWeb.with(hisBrowser));
+        sam.can(BrowseTheWeb.with(hisBrowser));
     }
 
     @Test				
     public void search_results_should_show_the_search_term_in_the_title() {
 
-        givenThat(SAM).wasAbleTo(openTheApplication);
+        givenThat(sam).wasAbleTo(openTheApplication);
 
-        when(SAM).attemptsTo(Search.forTheTerm(SearchStack.Iphone.name()));
+        when(sam).attemptsTo(Search.forTheTerm(SearchStack.Iphone.name()));
 
-        then(SAM).should(eventually(seeThat(TheWebPage.title(), containsString(SearchStack.Iphone.name()))));
+        then(sam).should(eventually(seeThat(TheWebPage.title(), containsString(SearchStack.Iphone.name()))));
 
     }
 }

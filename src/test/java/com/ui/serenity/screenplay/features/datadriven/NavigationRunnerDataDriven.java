@@ -10,8 +10,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import com.ui.serenity.screenplay.base.BaseActors;
-import com.ui.serenity.screenplay.model.Category;
-import com.ui.serenity.screenplay.tasks.NavigateTo;
+import com.ui.serenity.screenplay.tasks.NavigateWithParametrization;
 import com.ui.serenity.screenplay.tasks.OpenTheApplication;
 
 import net.serenitybdd.junit.runners.SerenityParameterizedRunner;
@@ -33,8 +32,8 @@ import net.thucydides.junit.annotations.UseTestDataFrom;
 @UseTestDataFrom(value="src\\test\\resources\\test-data\\search.csv")  
 public class NavigationRunnerDataDriven extends BaseActors{
 
-	private String searchKeyword;
-    private String expectedTitle;
+	private String category;
+    private String expectedPageTitle;
 	
 
     @Steps
@@ -42,16 +41,16 @@ public class NavigationRunnerDataDriven extends BaseActors{
 
     @Before
     public void samCanBrowseTheWeb() {
-        SAM.can(BrowseTheWeb.with(hisBrowser));
+        sam.can(BrowseTheWeb.with(hisBrowser));
     }
     
-    public void searchKeyword(String searchKeyword) {
-        this.searchKeyword = searchKeyword;
+    public void searchKeyword(String category) {
+        this.category = category;
     }
     
     @Qualifier
     public String qualifier() {
-       return searchKeyword + "=>" + expectedTitle;
+       return category + "=>" + expectedPageTitle;
     }
    
 
@@ -59,8 +58,8 @@ public class NavigationRunnerDataDriven extends BaseActors{
   public void shouldBeAbleToNavigateToTheDataDrivenProducts() {
 		
     	
-    	when(SAM).attemptsTo(NavigateTo.theCategory(Category.Fashion));
+    	when(sam).attemptsTo(NavigateWithParametrization.theCategory(category));
     	
-    	then(SAM).should(seeThat(TheWebPage.title(), containsString(Category.Fashion.toString())));
+    	then(sam).should(seeThat(TheWebPage.title(), containsString(expectedPageTitle)));
 	}
 }

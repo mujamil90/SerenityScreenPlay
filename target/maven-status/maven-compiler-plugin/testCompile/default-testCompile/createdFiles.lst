@@ -1,3 +1,4 @@
 com\ui\serenity\screenplay\features\datadriven\NavigationRunnerDataDriven.class
 com\ui\serenity\screenplay\features\navigation\NavigationRunner.class
+com\ui\serenity\screenplay\features\jira_integration\JiraTestRunner.class
 com\ui\serenity\screenplay\features\search\SearchRunner.class

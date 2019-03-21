@@ -20,5 +20,13 @@ public class NavigateBar {
 				.located(By.linkText(category.name()));
 
 	}
+	
+	
+	public static Target category(String category) {
+		return Target.the(category)
+				.located(By.linkText(category));
+
+	}
+
 
 }

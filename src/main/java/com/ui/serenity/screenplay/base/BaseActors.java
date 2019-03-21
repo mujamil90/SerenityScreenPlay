@@ -14,8 +14,8 @@ public class BaseActors {
 	/***
 	 * Base actors who will perform action  like @click, @type  and @openBrowser to perform given task.
 	 */
-	public static Actor DEAN = Actor.named("Dean");
-	public static Actor SAM = Actor.named("Sam");
+	public static Actor dean = Actor.named(Constant.ACTOR_DEAN);
+	public static Actor sam = Actor.named(Constant.ACTOR_SAM);
 	
 	/***
 	 * Driver or browser instance will be use to open browser.

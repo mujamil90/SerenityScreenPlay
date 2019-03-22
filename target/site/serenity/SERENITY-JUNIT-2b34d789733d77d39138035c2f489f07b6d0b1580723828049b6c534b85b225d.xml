@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="com.ui.serenity.screenplay.features.search.SearchRunner" skipped="0" tests="1" time="10.11" timestamp="2019-03-21 08:13:53"><testcase classname="com.ui.serenity.screenplay.features.search.SearchRunner" name="Search results should show the search term in the title"/></testsuite>

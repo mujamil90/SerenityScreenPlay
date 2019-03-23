@@ -9,8 +9,10 @@
  
 5) **Viewing the reports:**
      Run project with 
+
      
      mvn clean verify serenity:aggregate
+
 
 You can check generated report after execution in "/target/site"
 
@@ -35,3 +37,8 @@ You can override the driver specified in the properties or configuration file fr
   You can execution in parallel mode using maven profile 
   
     mvn clean verify -PParallelRun
+    
+ c) **Cucumber based test cases Execution:**
+ You can run cucumber based test cases using maven profile 
+  
+    mvn clean verify -Pcucumber 

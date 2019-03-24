@@ -177,14 +177,8 @@
                         </goals>
                     </execution>
                 </executions>
-              <dependencies>
-                <dependency>
-                    <groupId>net.serenity.plugins.jira</groupId>
-                    <artifactId>serenity-jira-requirements-provider</artifactId>
-                    <version>${serenity.jira.version}</version>
-                </dependency>
-            </dependencies>
             </plugin>
+         
         </plugins>
     </build>
     

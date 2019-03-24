@@ -10,7 +10,7 @@ import static org.hamcrest.Matchers.containsString;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import com.ui.serenity.screenplay.base.BaseActors;
+import com.ui.serenity.screenplay.base.Base;
 import com.ui.serenity.screenplay.model.SearchStack;
 import com.ui.serenity.screenplay.tasks.OpenTheApplication;
 import com.ui.serenity.screenplay.tasks.Search;
@@ -28,7 +28,7 @@ import net.thucydides.core.annotations.Steps;
  *This class having test cases to verify @serach
  */
 @RunWith(SerenityRunner.class)
-public class SearchRunner extends BaseActors{
+public class SearchRunner extends Base{
 
 
     @Steps

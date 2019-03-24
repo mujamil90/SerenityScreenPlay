@@ -9,7 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import com.ui.serenity.screenplay.base.BaseActors;
+import com.ui.serenity.screenplay.base.Base;
 import com.ui.serenity.screenplay.model.Category;
 import com.ui.serenity.screenplay.tasks.NavigateTo;
 
@@ -23,7 +23,7 @@ import net.serenitybdd.screenplay.questions.page.TheWebPage;
  * This class having test cases to verify @navigation.
  */
 @RunWith(SerenityRunner.class)
-public class NavigationRunner extends BaseActors {
+public class NavigationRunner extends Base {
 
     
     

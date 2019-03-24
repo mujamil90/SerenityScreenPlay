@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import net.serenitybdd.screenplay.Actor;
 import net.thucydides.core.annotations.Managed;
 
-public class BaseActors {
+public class Base {
 	
 	/***
 	 * Base actors who will perform action  like @click, @type  and @openBrowser to perform given task.

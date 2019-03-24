@@ -4,7 +4,7 @@ import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.hasItem;
 
-import com.ui.serenity.screenplay.base.BaseActors;
+import com.ui.serenity.screenplay.base.Base;
 import com.ui.serenity.screenplay.model.Credentials;
 import com.ui.serenity.screenplay.questions.LoggedInUser;
 import com.ui.serenity.screenplay.tasks.ClickTo;
@@ -17,7 +17,12 @@ import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.Steps;
 
-public class LoginSteps extends BaseActors{
+public class LoginSteps extends Base{
+	
+	/***
+	 * 
+	 * This class provides steps to @cucumber feature file to execute.
+	 */
 	
 	@Steps
 	private OpenTheApplication openTheApplication;

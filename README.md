@@ -41,4 +41,7 @@ You can override the driver specified in the properties or configuration file fr
  c) **Cucumber based test cases Execution:**
  You can run cucumber based test cases using maven profile 
   
-    mvn clean verify -Pcucumber 
+    mvn clean verify -Pcucumber
+    
+8) **Cloud Support**
+  You can add your 'browserstack.user' and 'browserstack.key' in serenity.properties file to write test cases with browserstack.	     

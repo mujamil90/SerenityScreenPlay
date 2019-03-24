@@ -9,7 +9,7 @@ import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.annotations.Subject;
 import net.serenitybdd.screenplay.questions.Text;
 
-@Subject("the displayed todo items")
+@Subject("the displayed username of loggedin user")
 public class UserName implements Question<List<String>>{
 	
 	@Override

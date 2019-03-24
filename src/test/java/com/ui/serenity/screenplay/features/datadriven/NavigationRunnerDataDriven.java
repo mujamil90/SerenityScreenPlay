@@ -9,7 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import com.ui.serenity.screenplay.base.BaseActors;
+import com.ui.serenity.screenplay.base.Base;
 import com.ui.serenity.screenplay.tasks.NavigateWithParametrization;
 import com.ui.serenity.screenplay.tasks.OpenTheApplication;
 
@@ -30,7 +30,7 @@ import net.thucydides.junit.annotations.UseTestDataFrom;
  */
 @RunWith(SerenityParameterizedRunner.class)
 @UseTestDataFrom(value="src\\test\\resources\\test-data\\search.csv")  
-public class NavigationRunnerDataDriven extends BaseActors{
+public class NavigationRunnerDataDriven extends Base{
 
 	private String category;
     private String expectedPageTitle;

@@ -12,5 +12,5 @@ Feature: Login in Ebay
     
     
     Examples: 
-      |UserName  						 |Password   |
-      |muzzamil.cse@gmail.com|Te5t@cc0unt| 
+      |UserName  |Password   |
+      |muzzans-55|Te5t@cc0unt| 

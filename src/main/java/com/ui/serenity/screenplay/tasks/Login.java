@@ -30,7 +30,7 @@ public class Login implements Task{
 	public <T extends Actor> void performAs(T actor) {
 		 actor.attemptsTo(
 	            Enter.theValue(username).into(login.USER_NAME),
-	            Enter.theValue("password").into(login.USER_PASSWORD),
+	            Enter.theValue(password).into(login.USER_PASSWORD),
 	            Click.on(login.SUBMIT_BUTTON)
 	        );
 		

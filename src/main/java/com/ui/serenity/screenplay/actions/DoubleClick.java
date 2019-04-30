@@ -17,6 +17,7 @@ import net.thucydides.core.annotations.Step;
  * 
  * This class having global custom Action using a low-level WebDriver API 
  */
+@SuppressWarnings("deprecation")
 public class DoubleClick implements Action {
 
 	/**

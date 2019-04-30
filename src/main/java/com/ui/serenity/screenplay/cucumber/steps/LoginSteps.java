@@ -6,7 +6,7 @@ import static org.hamcrest.CoreMatchers.hasItem;
 
 import com.ui.serenity.screenplay.base.Base;
 import com.ui.serenity.screenplay.model.Credentials;
-import com.ui.serenity.screenplay.questions.LoggedInUser;
+import com.ui.serenity.screenplay.questions.SignedInUser;
 import com.ui.serenity.screenplay.tasks.ClickTo;
 import com.ui.serenity.screenplay.tasks.Login;
 import com.ui.serenity.screenplay.tasks.OpenTheApplication;
@@ -53,7 +53,7 @@ public class LoginSteps extends Base{
 	 @When("^he should see loggedin User as 'Muzzamil' on homepage$")
 	    public void he_should_see_loggedin_User_as_username_on_homepage() throws Throwable {
 		 
-		 dean.should(seeThat(LoggedInUser.userName(), hasItem(containsString(Credentials.FirstName.label()))));
+		 dean.should(seeThat(SignedInUser.userName(), hasItem(containsString(Credentials.FirstName.label()))));
 	        
 	    }
 }

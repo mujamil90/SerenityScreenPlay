@@ -23,7 +23,9 @@ public class JiraTestSteps {
         action();
         
     }
-
+/***
+ *  make current thread to sleep for millis-seconds between 50-200.
+ */
     private void action() {
         try {
             Thread.sleep(ThreadLocalRandom.current().nextInt(50, 200));

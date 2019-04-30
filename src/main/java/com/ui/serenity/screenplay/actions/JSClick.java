@@ -16,6 +16,7 @@ import net.thucydides.core.annotations.Step;
  * 
  * An example of a custom WebDriver Action.
  */
+@SuppressWarnings("deprecation")
 public class JSClick implements Action {
 
     private final Target target;
